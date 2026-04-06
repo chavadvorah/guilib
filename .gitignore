@@ -1,0 +1,48 @@
+# Build tree
+build/
+out/
+
+# Binary output (keep the directory, ignore the binaries)
+bin/*
+!bin/.gitkeep
+
+# vcpkg installed packages (reproduced from vcpkg.json)
+vcpkg_installed/
+
+# CMake user-specific files
+CMakeUserPresets.json
+CMakeSettings.json
+
+# Backup/temp files
+*.~
+*~
+*.orig
+
+# Editor & IDE
+.vs/
+.vscode/
+*.user
+*.suo
+*.sdf
+*.opensdf
+.idea/
+*.iml
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Compiled artifacts (if we ever add a compiled target)
+*.lib
+*.dll
+*.exp
+*.pdb
+*.ilk
+*.a
+*.so
+*.dylib
